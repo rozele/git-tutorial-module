@@ -1,6 +1,4 @@
-function output(message, indent) {
+module.exports = function(message, indent) {
   const spacing = '  '.repeat(indent || 0)
   console.log(`${spacing}${message}`);
-}
-
-module.export = output;
+};
